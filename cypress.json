@@ -1,0 +1,12 @@
+{
+  "chromeWebSecurity": false ,
+        "baseUrl": "https:///#!/login/",
+        "env":{
+          "usuario": "athos@adsoft.com",
+          "senha":"4071",
+          "Nome1":"CyAthos",
+          "Nome2":"CyTeste"
+        }
+    }
+
+   

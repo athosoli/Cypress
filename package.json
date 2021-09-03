@@ -1,0 +1,29 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "teste",
+    "e2e",
+    "cypress"
+  ],
+  "author": "athos",
+  "license": "",
+  "dependencies": {
+    "cypress-react-selector": "^2.3.11"
+  },
+  "devDependencies": {
+    "@cypress/react": "^5.9.2",
+    "@cypress/webpack-dev-server": "^1.4.0",
+    "cypress": "^7.7.0",
+    "cypress-xpath": "^1.6.2",
+    "faker": "^5.5.3",
+    "html-webpack-plugin": "^4.5.2",
+    "webpack": "^5.47.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
