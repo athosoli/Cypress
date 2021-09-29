@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 const faker = require('faker')
-import loc from '../../../support/locators'
+import loc from '../../support/locators'
 
 context('Testar o Login', () => {
   beforeEach(() => {
