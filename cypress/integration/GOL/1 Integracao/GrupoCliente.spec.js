@@ -6,13 +6,13 @@ import loc from '../../../support/locators'
 context('Testar o Login', () => {
   beforeEach(() => {
     cy.visit('/');
-    cy.get(loc.login.user).type(`${Cypress.env('usuario')}`)//variavel e locators
-    cy.get(loc.login.password).clear().type(`${Cypress.env('senha')}`)//variavel e locators  
+    cy.get(loc.login.user).type("br")//variavel e locators
+    cy.get(loc.login.password).clear().type("7")//variavel e locators  
     cy.get("[class=ng-scope]").should("contain", "ACESSAR")
-    cy.contains('ACESSAR').click({timeout: 20000})
-    cy.contains('Selecionar...').click({timeout: 10000})
-    cy.contains('DEMONSTRAÇÃO').click({timeout: 10000})
-    cy.contains('SELECIONAR FILIAL').click({timeout: 10000})
+     cy.contains('ACESSAR').click({timeout: 20000})
+    // cy.contains('Selecionar...').click({timeout: 10000})
+    // cy.contains('DEMONSTRAÇÃO').click({timeout: 10000})
+    // cy.contains('SELECIONAR FILIAL').click({timeout: 10000})
     cy.get("[class=ng-binding]").should("contain", "Inicio");
     //abrir a navigator bar
     cy.get(loc.menu.navigator).click()//locators 
